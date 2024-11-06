@@ -144,8 +144,6 @@ params:
   # https://github.com/cstate/cstate/wiki/Customization
   categories:
     - name: Dynamics
-      description: VConsyst Dynamics
-      closed: true
     - name: CMS
     - name: Overig
       untitled: true
@@ -288,7 +286,7 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We houden de status van onze diensten continu in de gaten en als er onderbrekingen zijn, wordt hier een melding geplaatst.
+  # description: We houden de status van onze diensten continu in de gaten en als er onderbrekingen zijn, wordt hier een melding geplaatst.
 
 
   # Tabs on homepage
@@ -331,7 +329,7 @@ params:
   # down: "#e60000"
   # notice: "#24478f"
   brand: "#4cae4f"
-  ok: "#008000"
+  ok: "#4cae4f"
   disrupted: "#cc4400"
   down: "#e60000"
   notice: "#24478f"
