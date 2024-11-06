@@ -158,20 +158,16 @@ params:
   # For help, see the wiki:
   # https://github.com/cstate/cstate/wiki/Customization
   systems:
-    - name: Gateway
-      category: North Coast
-    - name: Backup Gateway
-      category: North Coast
+    - name: DSCS-services
+      category: Dynamics
+    - name: API's
+      category: Dynamics
+    - name: Dynamics CRM
+      category: Dynamics
+    - name: API's
+      category: CMS
     - name: Website
-      description: The web frontend for the application.
-      category: Uncategorized
-      link: https://example.com/
-    - name: API
-      description: The guts of the application.
-      category: Uncategorized
-    - name: Media Proxy
-      description: This is the service responsible for serving images, audio, and video. It is reliant on our CDN.
-      category: Uncategorized
+      category: CMS
 
   # What date format to use?
   #
@@ -182,8 +178,8 @@ params:
   #
   # dateFormat Default: "January 2, 2006 at 3:04 PM"
   # shortDateFormat Default: "15:04 — Jan 2"
-  dateFormat: January 2, 2006 at 3:04 PM UTC
-  shortDateFormat: 15:04 UTC — Jan 2
+  dateFormat:  2 januari 2006 om 15:04 UTC
+  shortDateFormat: 15:04 UTC — 2 jan
 
   # Should relative time (x min ago) be used?
   #
@@ -292,7 +288,8 @@ params:
   # on the footer and meta tags.
   #
   # Default: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
-  description: We continuously monitor the status of our services and if there are any interruptions, a note will be posted here.
+  description: We houden de status van onze diensten continu in de gaten en als er onderbrekingen zijn, wordt hier een melding geplaatst.
+
 
   # Tabs on homepage
   # Uncomment to enable.
@@ -333,7 +330,7 @@ params:
   # disrupted: "#cc4400"
   # down: "#e60000"
   # notice: "#24478f"
-  brand: "#0a0c0f"
+  brand: "#4cae4f"
   ok: "#008000"
   disrupted: "#cc4400"
   down: "#e60000"
