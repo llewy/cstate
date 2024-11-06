@@ -1,9 +1,9 @@
 ---
-title: Maintenance Announcement 
-date: 2024-02-24 10:35:00 
+title: Release VConsyst Dynamics
+date: 2024-12-06 19:00:00 
 informational: true
 pin: true 
 section: issue
 ---
 
-We will shut down our network at midnight UTC on Feb 24. This does not affect the current status.
+Op 6 december zal release 2024v08 van Dynamics plaatsvinden, releasenotes zijn hier te vinden: https://docs.vcdynamics.nl/over/changelog/
